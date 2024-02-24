@@ -81,7 +81,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 export PATH=$PATH:/Users/rishi/flutter/flutter
 
-plugins=(git)
+plugins=(git
+zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -121,6 +122,7 @@ alias gipl="git pull origin HEAD"
 alias giph="git push origin HEAD"
 alias gisth="git stash"
 alias gipop="git stash pop"
+alias gicht="git checkout"
 
 alias girts="git reset --soft HEAD^"
 alias gitrt="git reset"
